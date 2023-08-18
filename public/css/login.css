@@ -1,0 +1,81 @@
+body{
+
+    background-image: url(/images/bg1.png);
+  }
+  
+  
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 550px;
+  
+  }
+  
+  
+  .btn-dark {
+    width: 200px;
+      color: #ffff;
+      background: linear-gradient(to right,darkblue, #E31298);
+      border: none;
+      align-items: center;
+  }
+  
+  
+  .btn-dark:hover {
+      color: #fff;
+      background: linear-gradient(to right,#E31298, darkblue);
+      border: none;
+  }
+  
+  
+  .nav-pills{
+    display:table !important;
+    width:100%;
+  }
+  
+  .nav-pills .nav-link {
+    font-size: 20px;
+        font-weight: 500;
+          border-bottom: none;
+  
+  }
+  
+  .nav-item{
+    font-size: 20px;
+        font-weight: 500;
+        display: table-cell;
+       
+    }
+  
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        background: linear-gradient(to right,darkblue, #E31298);
+    }
+    
+  .form{
+  
+    padding: 10px;
+        height: auto;
+  }
+  
+  .form input{
+  
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  
+  .form input:focus{
+  
+    box-shadow: none;
+  }
+  
+  
+  .form button{
+  
+    margin-top: 20px;
+  }
+  label{
+    color:#000;
+  }
